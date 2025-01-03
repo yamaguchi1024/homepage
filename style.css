@@ -12,10 +12,21 @@ p {
   font-family: arial;
 }
 
-h1 {
-  font-size: 40px;
-  font-weight: bold;
-  margin: 0;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+@media (min-width: 769px) {
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 20px;
+  }
 }
 
 h2 {
@@ -31,7 +42,6 @@ h4 {
 }
 
 .pub-image {
- float:left;
  width:150px;
  height:85px;
  margin:20px;
@@ -73,4 +83,9 @@ ul {
 
 .center {
   text-align: center;
+}
+
+.yuka-photo {
+  width: 50vw;
+  max-width: 200px;
 }
