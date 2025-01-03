@@ -1,4 +1,72 @@
-img {
-  float: right;
-  margin: 10px;
+.pic {
+  margin: 15px;
+}
+
+p {
+  margin: 2px;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+  font-family: arial;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.pub-image {
+ float:left;
+ width:150px;
+ height:85px;
+ margin:20px;
+}
+
+.pub-title {
+  font-weight: bold;
+}
+
+hr {
+  height: 0px;
+  border: none;
+  border-top: 1px solid black;
+  margin-top: 20px;
+}
+
+.bio1 {
+  margin-top: 20px;
+}
+
+li {
+  margin: 2px;
+}
+
+ul {
+  margin: 2px;
+  padding-left: 20px;
+}
+
+.news {
+  background-color: #EEE;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.align-right {
+  text-align: right;
 }
